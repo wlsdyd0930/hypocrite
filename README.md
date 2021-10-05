@@ -64,11 +64,30 @@ Get API Key from each web service platform.
 
 3. To Configure HYPOCRITE, revise main.py 
     - dataset
-        (i) IMDB
-    - target_model: (i) amazon - Amazone Comprehend (ii) google - Google Cloud NLP (iii) ibm - IBM Waston Natural Language Understanding (iv) microsoft - Microsoft Azure Text Analytics
-    - source: (i) None (ii) positive (iii) negative
-    - target_result: (i) None - Non-target (ii) positive (iii) negative (iv) mixed (v) neutral
-    - length: Text Length Group (i) x < 500  (ii) 500 <= x < 800 (iii) 800 <= x < 1100 (iv) 1100 <= x < 1400 (v) 1400 <= x < 1700 (vi) 1700 <= x < 2000 (vii) 2000 <= x < 2500
+        * IMDB
+    - target_model
+        * amazon - Amazone Comprehend
+        * google - Google Cloud NLP
+        * ibm - IBM Waston Natural Language Understanding
+        * microsoft - Microsoft Azure Text Analytics
+    - source
+        * None
+        * positive
+        * negative
+    - target_result
+        * None - Non-target
+        * positive
+        * negative
+        * mixed
+        * neutral
+    - length: Text Length Group
+        * 1 - x < 500 
+        * 2 - 500 <= x < 800
+        * 3 - 800 <= x < 1100
+        * 4 - 1100 <= x < 1400
+        * 5 - 1400 <= x < 1700
+        * 6 - 1700 <= x < 2000
+        * 7 - 2000 <= x < 2500
     - num: # of text
 
 4. Execute the HYPOCRTIE
@@ -79,13 +98,32 @@ Get API Key from each web service platform.
 ## To Reproduce the measurement
 
 1. Revise performance_evaluation_script.py
-    - dataset: (i) IMDB
-    - target_model: (i) amazon - Amazone Comprehend (ii) google - Google Cloud NLP (iii) ibm - IBM Waston Natural Language Understanding (iv) microsoft - Microsoft Azure Text Analytics
-    - source: (i) None (ii) positive (iii) negative
-    - target_result: (i) None - Non-target (ii) positive (iii) negative (iv) mixed (v) neutral
-    - length: Text Length Group (i) x < 500  (ii) 500 <= x < 800 (iii) 800 <= x < 1100 (iv) 1100 <= x < 1400 (v) 1400 <= x < 1700 (vi) 1700 <= x < 2000 (vii) 2000 <= x < 2500
+    - dataset
+        * IMDB
+    - target_model
+        * amazon - Amazone Comprehend
+        * google - Google Cloud NLP
+        * ibm - IBM Waston Natural Language Understanding
+        * microsoft - Microsoft Azure Text Analytics
+    - source
+        * None
+        * positive
+        * negative
+    - target_result
+        * None - Non-target
+        * positive
+        * negative
+        * mixed
+        * neutral
+    - length: Text Length Group
+        * 1 - x < 500 
+        * 2 - 500 <= x < 800
+        * 3 - 800 <= x < 1100
+        * 4 - 1100 <= x < 1400
+        * 5 - 1400 <= x < 1700
+        * 6 - 1700 <= x < 2000
+        * 7 - 2000 <= x < 2500
     - num: # of text
-
-4. Execute the HYPOCRTIE
+2. Execute the HYPOCRTIE
     - python performance_evaluation_script.py
     
