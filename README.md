@@ -7,7 +7,7 @@ HYPOCRITE: Homoglyph Adversarial Examples for Natural Language Web Services in t
 ## Authors
 
 JINYONG KIM \<timkim@skku.edu\>
-JEONGHYEON KIM \<jeonghyeon92@skku.edu\>
+JEONGHYEON KIM \<jeonghyeon12@skku.edu\>
 MOSE GU \<rna0415@g.skku.edu\>
 SANGHAK OHH \<sanghak@skku.edu\>
 GILTEUN CHOI \<gilteun@pusan.ac.kr\>
