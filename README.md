@@ -31,7 +31,7 @@ Through extensive experiments, it is shown that HYPOCRITE is more effective than
 
 # Build Environment
 
-<!-- We tested with the following versions of software:
+We tested with the following versions of software:
 
 1. Ubuntu 18.04.5 LTS
 
@@ -39,7 +39,7 @@ Through extensive experiments, it is shown that HYPOCRITE is more effective than
 
 # Prerequisites
 
-<!-- Get API Key from each web service platform.
+Get API Key from each web service platform.
 
 1. Amazon
    - Reference: https://aws.amazon.com/ko/comprehend
@@ -53,7 +53,6 @@ Through extensive experiments, it is shown that HYPOCRITE is more effective than
 3. Microsoft
    - Reference: https://azure.microsoft.com/services/cognitive-services/text-analytics
 
--->
 # How to build
 
 `pip install -r requirements.txt`
