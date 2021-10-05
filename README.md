@@ -124,6 +124,7 @@ Get API Key from each web service platform.
         * 6 - 1700 <= x < 2000
         * 7 - 2000 <= x < 2500
     - num: # of text
+    
 2. Execute the HYPOCRTIE
     - python performance_evaluation_script.py
     
