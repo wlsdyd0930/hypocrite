@@ -63,7 +63,8 @@ Get API Key from each web service platform.
 2. Change directory to Root directory 
 
 3. To Configure HYPOCRITE, revise main.py 
-    - dataset: (i) IMDB
+    - dataset
+        (i) IMDB
     - target_model: (i) amazon - Amazone Comprehend (ii) google - Google Cloud NLP (iii) ibm - IBM Waston Natural Language Understanding (iv) microsoft - Microsoft Azure Text Analytics
     - source: (i) None (ii) positive (iii) negative
     - target_result: (i) None - Non-target (ii) positive (iii) negative (iv) mixed (v) neutral
